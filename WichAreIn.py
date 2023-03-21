@@ -20,9 +20,6 @@ Arrays are written in "general" notation. See "Your Test Cases" for examples in 
 In Shell bash a1 and a2 are strings. The return is a string where words are separated by commas.
 Beware: In some languages r must be without duplicates.'''
 
-
-print(set(sorted(["a", "a", "a"])))
-
 def in_array(array1, array2):
     aux = set()
     for i in array1:
@@ -30,7 +27,6 @@ def in_array(array1, array2):
             if i in j:
                 aux.add(i)
                 break
-    print(sorted(list(aux)))
     return sorted(list(aux))
 
 def testing():
