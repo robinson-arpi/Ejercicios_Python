@@ -1,3 +1,4 @@
+#Training on Equal Sides Of An Array | Codewars
 def find_even_index(s):
     for i in range(len(s)):
         sum1 = sum(s[:i])
