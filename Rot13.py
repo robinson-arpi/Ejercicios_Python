@@ -10,8 +10,6 @@ test.assert_equals(rot13('Test'), 'Grfg', 'Returned solution incorrect for fixed
 test.assert_equals(rot13('aA bB zZ 1234 *!?%'), 'nN oO mM 1234 *!?%', 'Returned solution incorrect for fixed string = aA bB zZ 1234 *!?%')
 
 '''
-
-
 def rot13(message):
     result = ''
     for char in message:
